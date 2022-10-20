@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Datas } from './Datas';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,8 +12,14 @@ return (
 
 
       <h1> {props.title} </h1>
+      <h3> {props.annonce} </h3>
+      <Link to = {`description/${props.id}`}>
       <img src={props.postURL} alt={props.title} />
+      </Link>
       <p> {props.description} </p>
+      
+ 
+ 
   </div>
 )
 

@@ -11,9 +11,12 @@ const MovieList = () => {
             Datas.map((movie)=>(
             <>
               <MovieCard
+              id={movie.id}
                 title = {movie.title}
                 description = {movie.description}
                 postURL = {movie.postURL}
+              
+            
               />
             </>
             

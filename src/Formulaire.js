@@ -7,7 +7,7 @@ import MovieCard from "./MovieCard";
 
 const Formulaire = () => {
    const [recherche, setRecherche] = useState('')
-  
+
    return (
       <>
       <div className="recherche">
@@ -16,6 +16,7 @@ const Formulaire = () => {
                placeholder="Rechercher"
                onChange={e =>  setRecherche(e.target.value) } 
             />
+         
             </div>
       
          <div className="MovieListc">
