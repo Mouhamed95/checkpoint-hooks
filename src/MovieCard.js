@@ -1,8 +1,5 @@
-import React, {useState} from 'react'
-import { Datas } from './Datas';
+import React, {} from 'react'
 import { Link } from 'react-router-dom';
-
-
 
 const MovieCard = (props) => {
 

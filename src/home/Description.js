@@ -7,7 +7,7 @@ import MovieCard from "../MovieCard";
 
 const Description = () => {
    const {id} = useParams();
-   const movie = Datas [id];
+   const movie = Datas[id];
    
     return ( 
         <div>
